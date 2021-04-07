@@ -9,4 +9,7 @@ object Versions {
     const val junit = "4.+"
     const val junitInstrumentation = "1.1.2"
     const val espresso = "3.3.0"
+    const val retrofit = "2.9.0"
+    const val hilt = "2.28-alpha"
+    const val gradle = "4.1.2"
 }

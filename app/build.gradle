@@ -4,6 +4,8 @@ import br.com.rubensrodrigues.Dependencies
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -41,6 +43,18 @@ dependencies {
     }
 
     Dependencies.Design.list.forEach { dependency ->
+        implementation dependency
+    }
+
+    Dependencies.Networking.list.forEach { dependency ->
+        implementation dependency
+    }
+
+    Dependencies.Common.list.forEach { dependency ->
+        implementation dependency
+    }
+
+    Dependencies.Kapt.list.forEach { dependency ->
         implementation dependency
     }
 
