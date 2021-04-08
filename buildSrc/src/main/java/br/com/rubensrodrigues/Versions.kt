@@ -10,6 +10,10 @@ object Versions {
     const val junitInstrumentation = "1.1.2"
     const val espresso = "3.3.0"
     const val retrofit = "2.9.0"
-    const val hilt = "2.28-alpha"
+    const val hilt = "2.33-beta"
     const val gradle = "4.1.2"
+    const val lifecycle = "2.2.0"
+    const val navigation = "2.3.2"
+    const val okHttp = "4.2.2"
+    const val multidex = "2.0.1"
 }
