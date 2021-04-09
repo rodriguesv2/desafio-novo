@@ -16,4 +16,7 @@ object Versions {
     const val navigation = "2.3.2"
     const val okHttp = "4.2.2"
     const val multidex = "2.0.1"
+    const val coroutines = "1.4.3"
+    const val glide = "4.12.0"
+    const val anko = "0.10.8"
 }

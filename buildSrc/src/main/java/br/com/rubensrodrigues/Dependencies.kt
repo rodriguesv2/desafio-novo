@@ -33,16 +33,24 @@ object Dependencies {
     object Common {
         private const val hilt = "com.google.dagger:hilt-android:${Versions.hilt}"
         private const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
-        private const val lifecycle = "androidx.lifecycle:lifecycle-viewmodel-ktx:{${Versions.lifecycle}}"
+        private const val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
+        private const val lifecycleLivedata = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
         private const val navigation = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
         private const val navigationUi = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+        private const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+        private const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
+        private const val anko = "org.jetbrains.anko:anko:${Versions.anko}"
 
         val list = listOf(
                 hilt,
                 lifecycleExtensions,
-                lifecycle,
+                lifecycleViewModel,
+                lifecycleLivedata,
                 navigation,
-                navigationUi
+                navigationUi,
+                coroutines,
+                glide,
+                anko
         )
     }
 
