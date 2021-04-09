@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">DesafioNovo</string>
+
+    <string name="title_list">Lista de Filmes</string>
+    <string name="title_details">Detalhes do Filme</string>
 </resources>
